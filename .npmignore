@@ -1,0 +1,13 @@
+.github
+coverage
+node_modules
+src
+tests
+.gitignore
+.prettierignore
+.prettierrc
+.swcrc
+jest.config.js
+renovate.json
+sonar-project.properties
+yarn.lock
