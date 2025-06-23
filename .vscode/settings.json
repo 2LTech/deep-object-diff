@@ -2,5 +2,7 @@
   "sonarlint.connectedMode.project": {
     "connectionId": "2ltech",
     "projectKey": "2LTech_deep-object-diff"
-  }
+  },
+  "spellright.language": [],
+  "spellright.documentTypes": ["latex", "plaintext"]
 }
