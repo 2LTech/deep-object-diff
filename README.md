@@ -5,10 +5,8 @@ Deep difference between two Javascript objects
 ## Installation
 
 <!-- prettier-ignore-start -->
-##
     	yarn add @2ltech/deep-object-diff
-
-##
+###
     	npm i --save @2ltech/deep-object-diff
 <!-- prettier-ignore-end -->
 
