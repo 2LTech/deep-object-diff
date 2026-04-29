@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 10
     permissions:
       packages: write
+      id-token: write
+      contents: read
 
     steps:
       - uses: actions/checkout@main
@@ -40,7 +42,9 @@ jobs:
         with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@2ltech'
+      - name: Update npm to latest version for OIDC support
+        run: |
+          npm install -g npm@11.10.0
+          npm install -g npm@latest
       - name: Publish NPM
-        run: yarn npm publish --access=public
-        env:
-          YARN_NPM_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+        run: npm publish --provenance --access=public
