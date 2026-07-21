@@ -1,6 +1,6 @@
 {
   "name": "@2ltech/deep-object-diff",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Deep diffs two objects, including nested structures of arrays and objects, and return the difference.",
   "homepage": "https://github.com/2LTech/deep-object-diff",
   "type": "module",
@@ -26,12 +26,12 @@
   },
   "devDependencies": {
     "@swc/cli": "0.8.1",
-    "@swc/core": "1.15.32",
+    "@swc/core": "1.15.46",
     "@swc/jest": "0.2.39",
     "@types/jest": "30.0.0",
     "depcheck": "1.4.7",
-    "jest": "30.3.0",
-    "prettier": "3.8.3"
+    "jest": "30.4.2",
+    "prettier": "3.9.5"
   },
   "keywords": [
     "diff",
@@ -39,5 +39,5 @@
     "deep",
     "difference"
   ],
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.17.1"
 }
